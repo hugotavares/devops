@@ -1,3 +1,8 @@
+# 
+
+
+#!/bin/bash
+
 for DOMAIN in *; do
     if [ -d "${DOMAIN}" ]; then
     	echo "INFO Generating KEY, CSR and CRT for ${DOMAIN}"
